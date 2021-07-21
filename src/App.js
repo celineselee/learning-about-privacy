@@ -1,14 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import story from './copy.json'
-import { render } from '@testing-library/react';
 
 class WelcomePage extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>
@@ -20,10 +14,6 @@ class WelcomePage extends React.Component {
 }
 
 class StoryPage extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>
@@ -47,10 +37,6 @@ class Pagination extends React.Component {
 }
 
 class ConsequencesPage extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   renderPagination() {
     let pagination = Array(this.props.numRiskPages).fill(<Pagination isActive={false}/>)
     pagination[this.props.currRiskPage] = <Pagination isActive={true}/>

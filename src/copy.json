@@ -1,0 +1,51 @@
+[
+    {
+        "story": "<h1>This is the story</h1>",
+        "topic": "Voice assistants",
+        "options": [
+            {
+                "optionText": "point 1 option 1",
+                "risks": "1.1 risks",
+                "recs": "1.1 recommendations"
+            },
+            {
+                "optionText": "point 1 option 2",
+                "risks": "1.2 risks",
+                "recs": "1.2 recommendations"
+            }
+        ]
+    },
+    {
+        "story": "story point 2",
+        "topic": "Transportation",
+        "options": [
+            {
+                "optionText": "point 2 option 1",
+                "risks": "2.1 risks",
+                "recs": "2.1 recommendations"
+            },
+            {
+                "optionText": "point 2 option 2",
+                "risks": "2.2 risks",
+                "recs": "2.2 recommendations"
+            }
+        ]
+    },
+    {
+        "story": "story point 3",
+        "topic": "topic",
+        "options": [
+            {
+                "optionText": "3A",
+                "risks": "3 A risks",
+                "recs": "3 A recommendations"
+            },
+            {
+                "optionText": "3B",
+                "risks": "3B risks",
+                "recs": "3B recommendations"
+            }
+        ]
+    }
+
+]

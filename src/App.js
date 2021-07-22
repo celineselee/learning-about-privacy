@@ -24,9 +24,10 @@ class StoryPage extends React.Component {
             })
           }
         </div>
-        
-        <button onClick={() => this.props.nextStoryPage(0)}>{this.props.buttonOptions[0].optionText}</button>
-        <button onClick={() => this.props.nextStoryPage(1)}>{this.props.buttonOptions[1].optionText}</button>
+        <div className='buttons'>
+          <button className='choice-btn' onClick={() => this.props.nextStoryPage(0)}>{this.props.buttonOptions[0].optionText}</button>
+          <button className='choice-btn' onClick={() => this.props.nextStoryPage(1)}>{this.props.buttonOptions[1].optionText}</button>
+        </div>
 
       </div>
     );

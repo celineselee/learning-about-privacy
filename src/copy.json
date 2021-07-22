@@ -16,9 +16,16 @@
                 ]
             },
             {
-                "optionText": "point 1 option 2",
-                "risks": "1.2 risks",
-                "recs": "1.2 recommendations"
+                "optionText": "Amazon Alexa",
+                "risks": [
+                    "Alexa is always listening to you, not just when you ask it something because it needs to be listening for the wake word (for instance, “Ok Google”) (<a href='https://google.ca'>source</a>)",
+                    "Amazon keeps a record of all your interactions with any of its products (including Google Home) for targeted advertising  (<a href='https://google.ca'>source</a>)",
+                    "Amazon keeps a record of all your interactions with any of its products (including Google Home) for targeted advertising  (<a href='https://google.ca'>source</a>)"                
+                ],
+                "recs": [
+                    "Regularly review and delete your voice recordings (instructions)",
+                    "Mute the mic using the physical switch when not using it (source)"
+                ]
             }
         ]
     },

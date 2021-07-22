@@ -97,15 +97,34 @@ $primary-color: #E44084;
 
 // Buttons
 button {
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 700;
+  margin: 5px;
+  &:hover {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    cursor: pointer;
+  }
   &.navigation-action {
     color: white;
     background-color: $primary-color;
     padding: 20px 30px;
     border: none;
     border-radius: 40px;
-  }    
+  }
+  &.choice-btn {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 2px 60px 4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+    padding: 28px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+  }
 }
 
 .pagination {
@@ -163,5 +182,25 @@ button {
   
   button {
     margin: 0 auto;
+  }
+}
+
+// Story page
+.story-page {
+  width: 700px;
+  margin: 0 auto;
+  .story-paragraphs {
+    text-align: left;
+  }
+  .story-paragraphs {
+    margin-left: 10px;
+  }
+  .buttons {
+    display: inline-flex;
+    width: 100%;
+
+    button {
+      width: 50%;
+    }
   }
 }

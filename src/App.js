@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import React from 'react';
 import story from './copy.json'
 
@@ -7,7 +7,7 @@ class WelcomePage extends React.Component {
     return (
       <div>
         <p>welcome!</p>
-        <button onClick={() => this.props.startStory()}>start</button>
+        <button className='navigation-action' onClick={() => this.props.startStory()}>Start</button>
       </div>
     );
   }
@@ -16,8 +16,15 @@ class WelcomePage extends React.Component {
 class StoryPage extends React.Component {
   render() {
     return (
-      <div>
-        <div dangerouslySetInnerHTML={{__html:this.props.story}}></div>
+      <div className='story-page'>
+        <div className='story-paragraphs'>
+          {
+            this.props.story.map((paragraph, index) => {
+              return <p key={index}>{paragraph}</p>
+            })
+          }
+        </div>
+        
         <button onClick={() => this.props.nextStoryPage(0)}>{this.props.buttonOptions[0].optionText}</button>
         <button onClick={() => this.props.nextStoryPage(1)}>{this.props.buttonOptions[1].optionText}</button>
 
@@ -29,38 +36,50 @@ class StoryPage extends React.Component {
 class Pagination extends React.Component {
   render() {
     return (
-      <div>
-        {this.props.isActive ? <div>*</div> : <div>o</div>}
-      </div>
+      <React.Fragment>
+        {this.props.isActive ? <div className='active'></div> : <div className='inactive'></div>}
+      </React.Fragment>
     )
   }
 }
 
-class ConsequencesPage extends React.Component {
+class RisksPage extends React.Component {
   renderPagination() {
-    let pagination = Array(this.props.numRiskPages).fill(<Pagination isActive={false}/>)
-    pagination[this.props.currRiskPage] = <Pagination isActive={true}/>
+    let pagination = [...Array(this.props.numRiskPages)].map((e, i) => <Pagination key={i} isActive={false}/>)
+    pagination[this.props.currRiskPage] = <Pagination key={this.props.currRiskPage} isActive={true}/>
     return (
-      <div>{pagination}</div>
+      <div className='pagination'>{pagination}</div>
     )
   }
 
   render() {
     return (
-      <div>
+      <div className='risks-page'> 
         <h1>{this.props.topic}</h1>
-        <div>
-          <h2>What you should know:</h2>
-          <p>{this.props.options[this.props.userChoice].risks}</p>
-        </div>
-        <div>
-          <h2>Safeguards & recommendations</h2>
-          <p>{this.props.options[this.props.userChoice].recs}</p>
+        <h2>{this.props.options[this.props.userChoice].optionText}</h2>
+
+        <div className='info-boxes'>
+          <div className='info-box'>
+            <h3>What you should know:</h3>
+            {
+              this.props.options[this.props.userChoice].risks.map((risk, index) => {
+                return(<p key={index} dangerouslySetInnerHTML={{__html: risk}}></p>)
+              })
+            }
+          </div>
+          <div className='info-box'>
+            <h3>Safeguards & recommendations:</h3>
+            {
+              this.props.options[this.props.userChoice].recs.map((rec, index) => {
+                return(<p key={index}>{rec}</p>)
+              })
+            }
+          </div>
         </div>
 
-        {this.renderPagination()}
+         {this.renderPagination()}
 
-        <button onClick={() => this.props.nextRiskPage()}> 
+        <button className='navigation-action' onClick={() => this.props.nextRiskPage()}> 
           {this.props.currRiskPage === (this.props.numRiskPages - 1) ? 'Restart' : 'Next' }
         </button>
 
@@ -142,7 +161,7 @@ class App extends React.Component {
         return <WelcomePage startStory={this.startStory}/>
       case "consequences":
         console.log("render consequences page");
-        return <ConsequencesPage
+        return <RisksPage
                 userChoice={this.state.userChoices[this.state.currRiskPage]}
                 options={story[this.state.currRiskPage].options}
                 topic={story[this.state.currRiskPage].topic}

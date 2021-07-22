@@ -1,12 +1,19 @@
 [
     {
-        "story": "<h1>This is the story</h1>",
+        "story": ["Your voice assistant wakes you up for the day. She tells you today’s weather, your schedule for the day, and starts playing music for you", "Which voice assistant do you have?"],
         "topic": "Voice assistants",
         "options": [
             {
-                "optionText": "point 1 option 1",
-                "risks": "1.1 risks",
-                "recs": "1.1 recommendations"
+                "optionText": "Google Home",
+                "risks": [
+                    "Google Home is always listening to you, not just when you ask it something because it needs to be listening for the wake word (for instance, “Ok Google”) (<a href='https://google.ca'>source</a>)",
+                    "Google keeps a record of all your interactions with any of its products (including Google Home) for targeted advertising  (<a href='https://google.ca'>source</a>)",
+                    "Google keeps a record of all your interactions with any of its products (including Google Home) for targeted advertising  (<a href='https://google.ca'>source</a>)"                
+                ],
+                "recs": [
+                    "Regularly review and delete your voice recordings (instructions)",
+                    "Mute the mic using the physical switch when not using it (source)"
+                ]
             },
             {
                 "optionText": "point 1 option 2",
@@ -16,34 +23,66 @@
         ]
     },
     {
-        "story": "story point 2",
+        "story": ["story point 2", "question"],
         "topic": "Transportation",
         "options": [
             {
                 "optionText": "point 2 option 1",
-                "risks": "2.1 risks",
-                "recs": "2.1 recommendations"
+                "risks": [
+                    "risk 1",
+                    "risk 2",
+                    "risk 3"
+                ],
+                "recs": [
+                    "rec 1",
+                    "rec 2",
+                    "rec 3"
+                ]
             },
             {
                 "optionText": "point 2 option 2",
-                "risks": "2.2 risks",
-                "recs": "2.2 recommendations"
+                "risks": [
+                    "risk 1",
+                    "risk 2",
+                    "risk 3"
+                ],
+                "recs": [
+                    "rec 1",
+                    "rec 2",
+                    "rec 3"
+                ]
             }
         ]
     },
     {
-        "story": "story point 3",
+        "story": ["story point 3", "question"],
         "topic": "topic",
         "options": [
             {
                 "optionText": "3A",
-                "risks": "3 A risks",
-                "recs": "3 A recommendations"
+                "risks": [
+                    "risk 1",
+                    "risk 2",
+                    "risk 3"
+                ],
+                "recs": [
+                    "rec 1",
+                    "rec 2",
+                    "rec 3"
+                ]
             },
             {
                 "optionText": "3B",
-                "risks": "3B risks",
-                "recs": "3B recommendations"
+                "risks": [
+                    "risk 1",
+                    "risk 2",
+                    "risk 3"
+                ],
+                "recs": [
+                    "rec 1",
+                    "rec 2",
+                    "rec 3"
+                ]
             }
         ]
     }

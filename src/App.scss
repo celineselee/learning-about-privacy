@@ -1,0 +1,167 @@
+#root {
+  min-height: 100vh;
+  background-image: url("./assets/app-bg.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+$primary-color: #E44084;
+
+// Typography
+.story-paragraphs {
+  font-size: 20px;
+  line-height: 30px;
+
+  p:last-child {
+    font-weight: 700;
+  }
+}
+
+.risks-page {
+  h1, h2 {
+    margin-bottom: 32px;
+    margin-left: 32px;
+  }
+
+  h1, h2, h3 {
+    margin-top: 0px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+  }
+  h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  a {
+    font-weight: bold;
+    color: $primary-color;
+    text-decoration: none;
+    &:hover {
+      opacity: 70%;
+    } 
+  }
+}
+
+// Buttons
+button {
+  font-size: 20px;
+  font-weight: 700;
+  &.navigation-action {
+    color: white;
+    background-color: $primary-color;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 40px;
+  }    
+}
+
+.pagination {
+  margin: 32px auto;
+  display: inline-flex;
+
+  div {
+    border-radius: 20px;
+    background: $primary-color;
+    opacity: 0.2;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}
+
+// Risks page
+.risks-page {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+
+  .info-boxes {
+    display: flex;
+    margin: 0 auto;  
+    width: 100%;
+    .info-box {
+      padding: 32px;
+      margin: 5px;
+      width: 50%;
+      height: 300px;
+      overflow-y: scroll;
+      text-align: left;
+
+      background: rgba(255, 255, 255, 0.4);
+      box-shadow: 0px 2px 60px 4px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(4px);
+      /* Note: backdrop-filter has minimal browser support */
+      
+      border-radius: 20px;
+
+      // &::-webkit-scrollbar {
+      //   display: none;
+      // }
+    
+    }
+
+  }
+  
+  button {
+    margin: 0 auto;
+  }
+}

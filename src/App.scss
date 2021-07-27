@@ -204,3 +204,21 @@ button {
     }
   }
 }
+
+// Welcome page
+.welcome-page {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  button {
+    margin-top: 21px;
+    width: 250px;
+    margin-left: 0;
+  }
+  img {
+    height: 370px;
+    margin-left: 150px;
+  }
+}

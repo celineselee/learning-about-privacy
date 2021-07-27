@@ -1,13 +1,23 @@
 import './App.scss';
 import React from 'react';
 import story from './copy.json'
+import logo from './assets/lock-mascot.png'
 
 class WelcomePage extends React.Component {
   render() {
     return (
-      <div>
-        <p>welcome!</p>
-        <button className='navigation-action' onClick={() => this.props.startStory()}>Start</button>
+      <div className='welcome-page'>
+        <div>
+          <h1>Welcome to the Privacy Simulator!</h1>
+          <p>
+            Today, we’ll be spending the day together as you interact with different websites, gadgets and other tech products throughout the day.
+          </p>
+          <p>
+            At the end, you’ll see a summary of potential privacy risks you are exposing yourself to by using these products, and learn how to better protect yourself online.
+          </p>
+          <button className='navigation-action' onClick={() => this.props.startStory()}>Start</button>
+        </div>
+        <img src={logo} alt="Lock mascot"/>
       </div>
     );
   }
@@ -57,7 +67,11 @@ class RisksPage extends React.Component {
     return (
       <div className='risks-page'> 
         <h1>{this.props.topic}</h1>
-        <h2>{this.props.options[this.props.userChoice].optionText}</h2>
+        <h2>
+          {
+            this.props.options[this.props.userChoice].hasOwnProperty("displayText") ? this.props.options[this.props.userChoice].displayText : this.props.options[this.props.userChoice].optionText
+          }
+        </h2>
 
         <div className='info-boxes'>
           <div className='info-box'>
@@ -72,7 +86,7 @@ class RisksPage extends React.Component {
             <h3>Safeguards & recommendations:</h3>
             {
               this.props.options[this.props.userChoice].recs.map((rec, index) => {
-                return(<p key={index}>{rec}</p>)
+                return(<p key={index} dangerouslySetInnerHTML={{__html: rec}}></p>)
               })
             }
           </div>
@@ -86,6 +100,23 @@ class RisksPage extends React.Component {
 
       </div>
     )
+  }
+}
+
+class EndPage extends React.Component {
+  render() {
+    return (
+      <div className='end-page'>
+        <h2>We hope that this was a good starting point in helping you learn more about privacy!</h2>
+        <p>
+          Though it is unrealistic to be able to keep yourself 100% safe while being online and using digital products, hopefully you can use what you learned today to lessen or minimize risks.
+        </p>
+        <button className='navigation-action' onClick={() => this.props.restart()}> 
+          Restart
+        </button>
+
+      </div>
+    );
   }
 }
 
@@ -103,6 +134,7 @@ class App extends React.Component {
     this.startStory = this.startStory.bind(this);
     this.nextStoryPage = this.nextStoryPage.bind(this);
     this.nextRiskPage = this.nextRiskPage.bind(this);
+    this.restart = this.restart.bind(this);
   }
 
   restart() {

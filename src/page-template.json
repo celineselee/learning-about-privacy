@@ -1,0 +1,36 @@
+{
+    "story": [
+        "p1",
+        "p2+ (if necessary)",
+        "question?"
+    ],
+    "topic": "topic",
+    "options": [
+        {
+            "optionText": "option 1",
+            "risks": [
+                "Risk (<a href='https://google.ca'>source</a>)",
+                "Risk (<a href='https://google.ca'>source</a>)",
+                "Risk (<a href='https://google.ca'>source</a>)"           
+            ],
+            "recs": [
+                "Recommendation (<a href='https://google.ca'>instructions/source</a>)",
+                "Recommendation (<a href='https://google.ca'>instructions/source</a>)",
+                "Recommendation (<a href='https://google.ca'>instructions/source</a>)"
+            ]
+        },
+        {
+            "optionText": "option 2",
+            "risks": [
+                "Risk (<a href='https://google.ca'>source</a>)",
+                "Risk (<a href='https://google.ca'>source</a>)",
+                "Risk (<a href='https://google.ca'>source</a>)"           
+            ],
+            "recs": [
+                "Recommendation (<a href='https://google.ca'>instructions/source</a>)",
+                "Recommendation (<a href='https://google.ca'>instructions/source</a>)",
+                "Recommendation (<a href='https://google.ca'>instructions/source</a>)"
+            ]
+        }
+    ]
+}

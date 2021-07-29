@@ -24,6 +24,14 @@ class WelcomePage extends React.Component {
 }
 
 class StoryPage extends React.Component {
+  renderPagination() {
+    let pagination = [...Array(this.props.numStoryPages)].map((e, i) => <Pagination key={i} isActive={false}/>)
+    pagination[this.props.currStoryPage] = <Pagination key={this.props.currStoryPage} isActive={true}/>
+    return (
+      <div className='pagination'>{pagination}</div>
+    )
+  }
+
   render() {
     return (
       <div className='story-page'>
@@ -38,6 +46,8 @@ class StoryPage extends React.Component {
           <button className='choice-btn' onClick={() => this.props.nextStoryPage(0)}>{this.props.buttonOptions[0].optionText}</button>
           <button className='choice-btn' onClick={() => this.props.nextStoryPage(1)}>{this.props.buttonOptions[1].optionText}</button>
         </div>
+        
+        {this.renderPagination()}
 
       </div>
     );
@@ -95,7 +105,7 @@ class RisksPage extends React.Component {
          {this.renderPagination()}
 
         <button className='navigation-action' onClick={() => this.props.nextRiskPage()}> 
-          {this.props.currRiskPage === (this.props.numRiskPages - 1) ? 'Restart' : 'Next' }
+            Next
         </button>
 
       </div>
@@ -109,7 +119,7 @@ class EndPage extends React.Component {
       <div className='end-page'>
         <h2>We hope that this was a good starting point in helping you learn more about privacy!</h2>
         <p>
-          Though it is unrealistic to be able to keep yourself 100% safe while being online and using digital products, hopefully you can use what you learned today to lessen or minimize risks.
+          Though it is unrealistic to be able to keep yourself 100% safe while being online and using digital products, we hope that you can use what you learned today to be safer online.
         </p>
         <button className='navigation-action' onClick={() => this.props.restart()}> 
           Restart
@@ -177,7 +187,8 @@ class App extends React.Component {
 
   nextRiskPage() {
     if(this.state.currRiskPage === story.length - 1) {
-      this.restart()
+      this.changeStoryMode("ending");
+      // this.restart()
     }
     else {
       this.setState(prevState => {
@@ -202,8 +213,14 @@ class App extends React.Component {
                 numRiskPages={this.state.totalStoryPages}
                 currRiskPage={this.state.currRiskPage}
                />
+      case "ending":
+        return <EndPage 
+                  restart={this.restart}
+              />
       default:
         return <StoryPage 
+                numStoryPages={this.state.totalStoryPages}
+                currStoryPage={this.state.currStoryPage}
                 story={story[this.state.currStoryPage].story}
                 buttonOptions={story[this.state.currStoryPage].options}
                 nextStoryPage={this.nextStoryPage}

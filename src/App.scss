@@ -124,6 +124,10 @@ button {
     font-size: 20px;
     font-weight: 400;
     text-align: left;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.45);
+    }
   }
 }
 
@@ -221,4 +225,9 @@ button {
     height: 370px;
     margin-left: 150px;
   }
+}
+
+.end-page {
+  width: 600px;
+  margin: 0 auto;
 }

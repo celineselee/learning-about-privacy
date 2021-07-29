@@ -2,7 +2,7 @@
     {
         "story": [
             "Your voice assistant wakes you up for the day. She tells you today’s weather, your schedule for the day, and starts playing music for you.", 
-            "Which voice assistant do you have?"
+            "Which voice assistant is waking you up?"
         ],
         "topic": "Voice assistants",
         "options": [

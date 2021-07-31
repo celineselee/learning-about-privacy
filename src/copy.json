@@ -110,7 +110,7 @@
                 "optionText": "Yes",
                 "displayText": "Active user", 
                 "risks": [
-                    "Instagram collects behavioural data through cookies, analytics from third-parties for advertising, analytics services (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://hellogiggles.com/news/instagram-compromising-privacy-dm-feature/'>source</a>)"
+                    "Instagram collects behavioural data through cookies, and analytics from third-parties for advertising through analytics services (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://hellogiggles.com/news/instagram-compromising-privacy-dm-feature/'>source</a>)"
                 ],
                 "recs": [
                     "To control ads on Instagram, you need to go to Facebook. There it’s possible to change preference settings, which will apply to Instagram as well as Facebook"

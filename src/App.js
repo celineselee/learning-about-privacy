@@ -10,10 +10,10 @@ class WelcomePage extends React.Component {
         <div>
           <h1>Welcome to the Privacy Simulator!</h1>
           <p>
-            Today, we’ll be spending the day together as you interact with different websites, gadgets and other tech products throughout the day.
+            Today, we’ll be spending the day together as you interact with different websites, gadgets and other tech products through a choose-your-adventure type story.
           </p>
           <p>
-            At the end, you’ll see a summary of potential privacy risks you are exposing yourself to by using these products, and learn how to better protect yourself online.
+            For each activity, you can choose how you'd like to interact with tech. At the end, you’ll see a summary of potential privacy risks you are exposing yourself to by using these products, and learn how to better protect yourself online.
           </p>
           <button className='navigation-action' onClick={() => this.props.startStory()}>Start</button>
         </div>

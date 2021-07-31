@@ -1,7 +1,7 @@
 [
     {
         "story": [
-            "Your voice assistant wakes you up for the day. She tells you today’s weather, your schedule for the day, and starts playing music for you.", 
+            "Your voice assistant wakes you up for the day. It tells you today’s weather, your schedule for the day, and starts playing music for you.", 
             "Which voice assistant is waking you up?"
         ],
         "topic": "Voice assistants",
@@ -52,12 +52,12 @@
                 "optionText": "Ride-sharing apps (like Uber)",
                 "risks": [
                     "Uber collects your geolocation data (e.g. where you are, where you go, and, sometimes, even how long you there for) (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://us.norton.com/internetsecurity-privacy-ridesharing-privacy-ride.html'>source</a>)",
-                    "If you link Uber to other social medias, voice assistants, or other apps, it can access those external data and use them for their other products (i.e. Uber Eats) (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://us.norton.com/internetsecurity-privacy-ridesharing-privacy-ride.html'>source</a>)",
+                    "If you link Uber to social media accounts, voice assistants, or other apps, you are giving it permission it to use your data for their other products (ex. Uber Eats) (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://us.norton.com/internetsecurity-privacy-ridesharing-privacy-ride.html'>source</a>)",
                     "In 2015, Uber suffered a data breach that exposed the personal information of 50,000 drivers (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://us.norton.com/internetsecurity-privacy-ridesharing-privacy-ride.html'>source</a>)"
                 ],
                 "recs": [
                     "Turn off location services and type in the pick up address and drop off address manually",
-                    "The best way to avoid these risks is to not use the app. However, be aware that by using this app, you are potentially putting your privacy at risk."
+                    "The best way to avoid these risks is to not use the app. However, be aware that by using this app, you are potentially putting your privacy at risk"
                 ]
             }
         ]

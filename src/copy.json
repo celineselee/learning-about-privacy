@@ -223,102 +223,102 @@
     },
 
     {
-        "story": [
-            "You are finally home after a long day. You are starving and decide to order some pizza (Pepperoni, yum!).",
-            "Do you order pizza delivery on UberEats or call the pizza place to order and pick up in person?"
-        ],
-        "topic": "Ordering food",
-        "options": [
-            {
-                "optionText": "Order pizza delivery on UberEats",
-                "risks": [
-                    "UberEats collects behavioural data through cookies to analyze your food preferences and UberEats’ ad partners may send you emails for targeted advertising. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.uber.com/legal/en/document/?name=cookie-notice&country=canada&lang=en'>source</a>)",
-                    "UberEats also collects your search and order histories on the site, which can be used to analyze your food preferences and used by its ad partners for targeted advertising. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.uber.com/legal/en/document/?name=cookie-notice&country=canada&lang=en'>source</a>)",
-                    "UberEats collects your personal and demographic information, such as your email, phone number, and even gender. UberEats specifically stated that \"[they] may also infer demographic data from other data collected from users. For example, where necessary to enable features that allow women to provide or receive services from other women, we may infer gender using their first name. In such cases, we enable users to change their gender if necessary via in-app settings.\" (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.uber.com/legal/fr/document/?name=privacy-notice&country=united-states&lang=en'>source</a>)",
-                    "UberEats’ user data has been leaked on the dark web before (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://securityaffairs.co/wordpress/106770/deep-web/ubereats-data-leaked-dark-web.html'>source</a>)"
-                ],
-                "recs": [
-                    "Use a designated email for UberEats such that your personal and demographic information become more difficult to be linked to other data you share online.",
-                    "Use strong passwords. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://terranovasecurity.com/how-to-create-a-strong-password-in-7-easy-steps/'>instructions</a>)"
-                ]
-            },
-            {
-                "optionText": "Call the pizza place and pick up in person",
-                "risks": [
-                    "Your phone number will be shared with the pizza place employees and may be leaked to spammers due to lack of protection. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.today.com/food/scammers-are-targeting-pizza-restaurants-customers-t170264'>source</a>)",
-                    "Some cities (e.g., New Orleans) have installed surveillance cameras with AI technology, which can log people’s locations in real-time. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.govtech.com/news/new-orleans-invests-70m-in-police-surveillance-cameras'>source</a>)"
-                ],
-                "recs": [
-                    "You can use Skype or other Internet Phone Calls apps to make orders such that your phone number will not be leaked. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://support.skype.com/en/skype/windows-desktop/calling/skype-to-phone/'>instructions</a>)",
-                    "Vote against mass surveillance policies and laws. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.hrw.org/news/2014/02/11/dispatches-say-no-today-mass-surveillance'>instructions</a>)"
-                ]
-            }
-        ]
-    },
-    {
-        "story": ["After a delicious meal, you sit down in front of your computer and decide to play an online video game with your friends.", "What software do you use to voice chat with them while playing the game?"],
-        "topic": "Online chatting",
-        "options": [
-            {
-                "optionText": "Discord",
-                "risks": [
-                    "Discord will collect your IP address, which can give away your approximate location. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://discord.com/privacy'>source</a>)",
-                    "Discord will record all your text messages and images you sent on the platform. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://discord.com/privacy'>source</a>)",
-                    "Discord will collect the unique ID of the device you use to access the platform. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://discord.com/privacy'>source</a>)",
-                    "Discord may share aggregated or non-personally identifiable information with its partners or others for business purposes. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://discord.com/privacy'>source</a>)"
-                ],
-                "recs": [
-                    "Do not disclose your personal information in text chats on Discord.",
-                    "Avoid using Discord if you are not willing to have your text conversations, location, or device ID recorded."
-                ]
-            },
-            {
-                "optionText": "Signal",
-                "risks": [
-                    "Your phone number will be shared with Signal. However, according to Signal, your phone number will not be used to link to you whatsoever. Signal also claims that \"[it] does not sell, rent or monetize your personal data or content in any way – ever.\" (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://signal.org/legal/'>source</a>)"
-                ],
-                "recs": [
-                    "Donate to Signal, it is a non-profit software and relies on donations to keep itself in business. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://signal.org/donate/'>instructions</a>)"
-                ]
-            }
-        ]
-    },
-    {
-        "story": [
-            "After losing at the online game for 2 hours straight, you decide to rage quit and watch a movie instead. You heard your favorite director’s latest movie has just been released, but it's still only released in theatres.",
-            "Do you watch another movie on Netflix or watch your favorite director’s latest movie on an illegal streaming website?"
-        ],
-        "topic": "Video streaming",
-        "options": [
-            {
-                "optionText": "Netflix",
-                "risks": [
-                    "Netflix collects your billing information, including your address and legal name. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.netflix.com/legal/privacy'>source</a>)",
-                    "Netflix records your IP addresses, which can give away your approximate locations. Netflix also collects behavioural data through cookies and analytics from third-parties for advertising through analytics services. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.netflix.com/legal/privacy'>source</a>)",
-                    "Netflix records your watch history and your likes and dislikes, which will be used to analyze your preferences in shows. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.netflix.com/legal/privacy'>source</a>)",
-                    "Although you may delete your viewing history to stop Netflix from making recommendations to you using those viewing history, it may not be removed from Netflix’s server. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.netflix.com/en/node/22205'>source</a>)",
-                    "Netflix collects the unique ID of the device you use to access the platform. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.netflix.com/legal/privacy'>source</a>)"
-                ],
-                "recs": [
-                  "Do not use Netflix if you do not wish to have your show preferences recorded.",
-                  "Contact your credit card company immediately when you find fraudulent charges. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.nerdwallet.com/article/credit-cards/dispute-fraudulent-credit-card-charges'>instructions</a>)",
+      "story": [
+        "You are finally home after a long day. You are starving and decide to order some pizza (Pepperoni, yum!).",
+        "Do you order pizza delivery on Uber Eats or call the pizza place to order and pick up in person?"
+      ],
+      "topic": "Ordering food",
+      "options": [
+          {
+              "optionText": "Order pizza delivery on Uber Eats",
+              "risks": [
+                  "Uber Eats collects behavioural data through cookies to analyze your food preferences and Uber Eats’ ad partners may send you emails for targeted advertising. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.uber.com/legal/en/document/?name=cookie-notice&country=canada&lang=en'>source</a>)",
+                  "Uber Eats also collects your search and order histories on the site, which can be used to analyze your food preferences and used by its ad partners for targeted advertising. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.uber.com/legal/en/document/?name=cookie-notice&country=canada&lang=en'>source</a>)",
+                  "Uber Eats collects your personal and demographic information, such as your email, phone number, and even gender. Uber Eats specifically stated that \"[they] may also infer demographic data from other data collected from users. For example, where necessary to enable features that allow women to provide or receive services from other women, we may infer gender using their first name. In such cases, we enable users to change their gender if necessary via in-app settings.\" (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.uber.com/legal/fr/document/?name=privacy-notice&country=united-states&lang=en'>source</a>)",
+                  "Uber Eats’ user data has been leaked on the dark web before (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://securityaffairs.co/wordpress/106770/deep-web/Uber Eats-data-leaked-dark-web.html'>source</a>)"
+              ],
+              "recs": [
+                  "Use a designated email for Uber Eats such that your personal and demographic information becomes more difficult to be linked to other data you share online.",
                   "Use strong passwords. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://terranovasecurity.com/how-to-create-a-strong-password-in-7-easy-steps/'>instructions</a>)"
-                ]
-            },
-            {
-                "optionText": "Stream illegally",
-                "risks": [
-                    "Illegal streaming websites have access to your IP address when you try to access them, which gives out your approximate location, and have access to information about your browser, your operating-system, such as their versions. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cookiepro.com/blog/website-tracking/'>source</a>)",
-                    "Illegal streaming websites may collect behavioural data through cookies and analytics from third-parties for advertising through analytics services. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cookiepro.com/blog/website-tracking/'>source</a>)",
-                    "Due to lack of funding and regulations, illegal streaming websites have little incentives to protect users’ data from being hacked (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.makeuseof.com/why-avoid-illegal-streaming-sites/'>source</a>).",
-                    "In fact, illegal streaming websites could be intentionally exposing your computer to the intrusion of malware or cryptomining software. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.stormshield.com/news/illegal-streaming-beware-of-the-backlash/'>source</a>)",
-                    "Some illegal streaming websites charge or require registration to get rid of advertisements, which means that they will collect your billing information, including your home address, credit card information, and legal name. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crimestoppers-uk.org/keeping-safe/online-safety/streaming-online-know-the-risks'>source</a>)"
-                ],
-                "recs": [
-                    "Avoid illegal streaming sites whenever possible to avoid your computer being hacked and your online activities being leaked.",
-                    "Never make transactions on illegal streaming websites. It will put your billing information and your personal information in significant danger."
-                ]
-            }
-        ]
-    }
+              ]
+          },
+          {
+              "optionText": "Call the pizza place and pick up in person",
+              "risks": [
+                  "Your phone number will be shared with the pizza place employees and may be leaked to spammers due to lack of protection. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.today.com/food/scammers-are-targeting-pizza-restaurants-customers-t170264'>source</a>)",
+                  "Some cities (e.g., New Orleans) have installed surveillance cameras with AI technology, which can log people’s locations in real-time. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.govtech.com/news/new-orleans-invests-70m-in-police-surveillance-cameras'>source</a>)"
+              ],
+              "recs": [
+                  "You can use Skype or other Internet Phone Calls apps to make orders such that your phone number will not be leaked. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://support.skype.com/en/skype/windows-desktop/calling/skype-to-phone/'>instructions</a>)",
+                  "Vote against mass surveillance policies and laws. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.hrw.org/news/2014/02/11/dispatches-say-no-today-mass-surveillance'>instructions</a>)"
+              ]
+          }
+      ]
+  },
+  {
+      "story": ["After a delicious meal, you sit down in front of your computer and decide to play an online video game with your friends.", "What software do you use to voice chat with them while playing the game?"],
+      "topic": "Online chatting",
+      "options": [
+          {
+              "optionText": "Discord",
+              "risks": [
+                  "Discord will collect your IP address, which can give away your approximate location. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://discord.com/privacy'>source</a>)",
+                  "Discord will record all your text messages and images you sent on the platform. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://discord.com/privacy'>source</a>)",
+                  "Discord will collect the unique ID of the device you use to access the platform. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://discord.com/privacy'>source</a>)",
+                  "Discord may share aggregated or non-personally identifiable information with its partners or others for business purposes. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://discord.com/privacy'>source</a>)"
+              ],
+              "recs": [
+                  "Do not disclose your personal information in text chats on Discord.",
+                  "Avoid using Discord if you are not willing to have your text conversations, location, or device ID recorded."
+              ]
+          },
+          {
+              "optionText": "Signal",
+              "risks": [
+                  "Your phone number will be shared with Signal. However, according to Signal, your phone number will not be used to link to you whatsoever. Signal also claims that \"[it] does not sell, rent or monetize your personal data or content in any way – ever.\" (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://signal.org/legal/'>source</a>)"
+              ],
+              "recs": [
+                  "Donate to Signal. Singal is a non-profit software and relies on donations to keep itself in business. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://signal.org/donate/'>instructions</a>)"
+              ]
+          }
+      ]
+  },
+  {
+      "story": [
+          "After losing at the online game for 2 hours straight, you decide to rage quit and watch a movie instead. You heard your favorite director’s latest movie has just been released, but it's still only released in theatres.",
+          "Do you watch another movie on Netflix or watch your favorite director’s latest movie on an illegal streaming website?"
+      ],
+      "topic": "Video streaming",
+      "options": [
+          {
+              "optionText": "Netflix",
+              "risks": [
+                  "Netflix collects your billing information, including your address and legal name. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.netflix.com/legal/privacy'>source</a>)",
+                  "Netflix records your IP addresses, which can give away your approximate locations. Netflix also collects behavioural data through cookies and analytics from third-parties for advertising through analytics services. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.netflix.com/legal/privacy'>source</a>)",
+                  "Netflix records your watch history and your likes and dislikes, which will be used to analyze your preferences in shows. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.netflix.com/legal/privacy'>source</a>)",
+                  "Although you may delete your viewing history to stop Netflix from making recommendations to you using those viewing history, it may not be removed from Netflix’s server. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.netflix.com/en/node/22205'>source</a>)",
+                  "Netflix collects the unique ID of the device you use to access the platform. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.netflix.com/legal/privacy'>source</a>)"
+              ],
+              "recs": [
+                "Do not use Netflix if you do not wish to have your show preferences recorded.",
+                "Contact your credit card company immediately when you find fraudulent charges. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.nerdwallet.com/article/credit-cards/dispute-fraudulent-credit-card-charges'>instructions</a>)",
+                "Use strong passwords. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://terranovasecurity.com/how-to-create-a-strong-password-in-7-easy-steps/'>instructions</a>)"
+              ]
+          },
+          {
+              "optionText": "Stream illegally",
+              "risks": [
+                  "Illegal streaming websites have access to your IP address when you try to access them, which gives out your approximate location, and have access to information about your browser, your operating system, such as their versions. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cookiepro.com/blog/website-tracking/'>source</a>)",
+                  "Illegal streaming websites may collect behavioural data through cookies and analytics from third-parties for advertising through analytics services. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cookiepro.com/blog/website-tracking/'>source</a>)",
+                  "Due to the lack of funding and regulations, illegal streaming websites have little incentive to protect users’ data from being hacked (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.makeuseof.com/why-avoid-illegal-streaming-sites/'>source</a>).",
+                  "In fact, illegal streaming websites could be intentionally exposing your computer to the intrusion of malware or cryptomining software. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.stormshield.com/news/illegal-streaming-beware-of-the-backlash/'>source</a>)",
+                  "Some illegal streaming websites charge or require registration to get rid of advertisements, which means that they will collect your billing information, including your home address, credit card information, and legal name. (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crimestoppers-uk.org/keeping-safe/online-safety/streaming-online-know-the-risks'>source</a>)"
+              ],
+              "recs": [
+                  "Avoid illegal streaming sites whenever possible to avoid your computer being hacked and your online activities being leaked.",
+                  "Never make transactions on illegal streaming websites. It will put your billing information and your personal information in significant danger."
+              ]
+          }
+      ]
+  }
 ]

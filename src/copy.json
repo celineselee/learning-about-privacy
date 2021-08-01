@@ -64,7 +64,7 @@
     {
         "story": [
             "You finish all your tasks for the day and you decide to slack off a little. You pull out your phone and go on to Instagram to see what everyone is up to.",
-            "Are you logging in with a separate Instagram account or other social media accounts, such as Facebook, Apple ID?"
+            "Do you login with a separate Instagram account or other social media accounts, such as Facebook, Apple ID?"
         ],
         "topic": "Social media login",
         "options": [
@@ -192,7 +192,7 @@
     {
         "story": [
             "You are on the payment page.",
-            "Are you paying with cash or a credit card?"],
+            "Do you pay with cash or a credit card?"],
         "topic": "Payment",
         "options": [
             {

@@ -64,7 +64,7 @@
     {
         "story": [
             "You finish all your tasks for the day and you decide to slack off a little. You pull out your phone and go on to Instagram to see what everyone is up to.",
-            "Are you logging in with a separate Instagram account or other social media accounts, such as Facebook, Apple ID?"
+            "Do you login with a separate Instagram account or other social media accounts, such as Facebook, Apple ID?"
         ],
         "topic": "Social media login",
         "options": [
@@ -73,7 +73,7 @@
                 "risks": [
                     "Instagram collects your geolocation data. For example, adding geotags to your photos will allow Instagram to know where you spend your time and display relevant ad (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://hellogiggles.com/news/instagram-compromising-privacy-dm-feature/'>source</a>)",
                     "Instagram can access other social media accounts and your private contact list (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://hellogiggles.com/news/instagram-compromising-privacy-dm-feature/'>source</a>)",
-                    "User information can be transferred to a third part (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://privacy.commonsense.org/evaluation/instagram'>source</a>)",
+                    "User information can be transferred to a third party (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://privacy.commonsense.org/evaluation/instagram'>source</a>)",
                     "There has been a vulnerability on Instagram, which would let an attacker access account details and phone numbers (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.forbes.com/sites/zakdoffman/2019/09/12/new-instagram-hack-exclusive-facebook-confirms-user-accounts-and-phone-numbers-at-risk/?sh=7118a8d02200'>source</a>)"
                 ],
                 "recs": [
@@ -142,7 +142,7 @@
                     "The new DM feature alerts real-timeily others to exactly what you’re doing on the app and when you’re doing it (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://hellogiggles.com/news/instagram-compromising-privacy-dm-feature/'>source</a>)"
                 ],
                 "recs": [
-                    "Making your post private",
+                    "Make your post private",
                     "Don’t post sensitive or copyrighted photos on Instagram. If you need to post copyrighted photos for advertisement, remember to leverage watermark and other legal preventions"
                 ]
             },
@@ -192,7 +192,7 @@
     {
         "story": [
             "You are on the payment page.",
-            "Are you paying with cash or a credit card?"],
+            "Do you pay with cash or a credit card?"],
         "topic": "Payment",
         "options": [
             {
@@ -207,7 +207,7 @@
                     "Keep your cards in a safe place, don't lend them to anyone, and cover up when you enter your password in a local setting",
                     "For online payment, make sure that the transaction is secure and do not to save your credit card information",
                     "Turn of tracking cookies, as some cookies track where you spend, how much you spend, and what you buy",
-                    "Contact your credit card company immediately when you find fraudulent charges"
+                    "Contact your credit card company immediately when you find fraudulent charges (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.nerdwallet.com/article/credit-cards/dispute-fraudulent-credit-card-charges'>instructions</a>)"
                 ]
             },
             {
@@ -311,7 +311,7 @@
                   "Illegal streaming websites have access to your IP address when you try to access them, which gives out your approximate location, and have access to information about your browser, your operating system, such as their versions (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cookiepro.com/blog/website-tracking/'>source</a>)",
                   "Illegal streaming websites may collect behavioural data through cookies and analytics from third-parties for advertising through analytics services (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cookiepro.com/blog/website-tracking/'>source</a>)",
                   "Due to the lack of funding and regulations, illegal streaming websites have little incentive to protect users’ data from being hacked (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.makeuseof.com/why-avoid-illegal-streaming-sites/'>source</a>)",
-                  "In fact, illegal streaming websites could be intentionally exposing your computer to the intrusion of malware or cryptomining software (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.stormshield.com/news/illegal-streaming-beware-of-the-backlash/'>source</a>)",
+                  "In fact, illegal streaming websites could be intentionally exposing your computer to the intrusion of malware (which could be used to monitor your comupter) or cryptomining software (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.stormshield.com/news/illegal-streaming-beware-of-the-backlash/'>source</a>)",
                   "Some illegal streaming websites charge or require registration to get rid of advertisements, which means that they will collect your billing information, including your home address, credit card information, and legal name (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crimestoppers-uk.org/keeping-safe/online-safety/streaming-online-know-the-risks'>source</a>)"
               ],
               "recs": [

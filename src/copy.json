@@ -13,7 +13,7 @@
                 ],
                 "recs": [
                     "Regularly review and delete your voice recordings (<a target='_blank' rel='noopener noreferrer'  href='https://www.the-ambient.com/how-to/delete-google-home-voice-recordings-136'>instructions</a>)",
-                    "Mute the mic using the physical switch when not using it (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.safety.com/google-home-safety/'>source</a>)"
+                    "Mute the mic using the physical switch when not using it (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.safety.com/google-home-safety/'>instructions</a>)"
                 ]
             },
             {
@@ -24,8 +24,8 @@
                     "Alexa skills are vulnerable to hackers listening in on your conversations without you knowing (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cnet.com/home/smart-home/8-ways-to-protect-your-amazon-echo-privacy-while-working-from-home/'>source</a>)"
                 ],
                 "recs": [
-                    "Regularly review and delete your recordings (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cnet.com/home/smart-home/8-ways-to-protect-your-amazon-echo-privacy-while-working-from-home/'>source</a>)",
-                    "Opt-out of sending your data to Amazon to improve Alexa’s listening capabilities (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cnet.com/home/smart-home/8-ways-to-protect-your-amazon-echo-privacy-while-working-from-home/'>source</a>)"
+                    "Regularly review and delete your recordings (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cnet.com/home/smart-home/8-ways-to-protect-your-amazon-echo-privacy-while-working-from-home/'>instructions</a>)",
+                    "Opt-out of sending your data to Amazon to improve Alexa’s listening capabilities (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cnet.com/home/smart-home/8-ways-to-protect-your-amazon-echo-privacy-while-working-from-home/'>instructions</a>)"
                 ]
             }
         ]
@@ -50,12 +50,12 @@
             {
                 "optionText": "Ride-sharing apps (like Uber)",
                 "risks": [
-                    "Uber collects your geolocation data (e.g. where you are, where you go, and, sometimes, even how long you there for) (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://us.norton.com/internetsecurity-privacy-ridesharing-privacy-ride.html'>source</a>)",
-                    "If you link Uber to social media accounts, voice assistants, or other apps, you are giving it permission it to use your data for their other products (ex. Uber Eats) (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://us.norton.com/internetsecurity-privacy-ridesharing-privacy-ride.html'>source</a>)",
+                    "Uber collects your geolocation data (e.g., where you are, where you go, and, sometimes, even how long you there for) (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://us.norton.com/internetsecurity-privacy-ridesharing-privacy-ride.html'>source</a>)",
+                    "If you link Uber to social media accounts, voice assistants, or other apps, you are giving it permission it to use your data for their other products (e.g., Uber Eats) (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://us.norton.com/internetsecurity-privacy-ridesharing-privacy-ride.html'>source</a>)",
                     "In 2015, Uber suffered a data breach that exposed the personal information of 50,000 drivers (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://us.norton.com/internetsecurity-privacy-ridesharing-privacy-ride.html'>source</a>)"
                 ],
                 "recs": [
-                    "Turn off location services and type in the pick up address and drop off address manually",
+                    "Turn off location services and type in the pick up address and drop off address manually (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.lifewire.com/turn-off-mobile-location-services-4156238'>instructions</a>)",
                     "The best way to avoid these risks is to not use the app. However, be aware that by using this app, you are potentially putting your privacy at risk"
                 ]
             }
@@ -77,9 +77,10 @@
                     "There has been a vulnerability on Instagram, which would let an attacker access account details and phone numbers (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.forbes.com/sites/zakdoffman/2019/09/12/new-instagram-hack-exclusive-facebook-confirms-user-accounts-and-phone-numbers-at-risk/?sh=7118a8d02200'>source</a>)"
                 ],
                 "recs": [
-                    "Turn off location services and real time alert",
+                    "Turn off location services (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.lifewire.com/turn-off-mobile-location-services-4156238'>instructions</a>)",
+                    "Turn off real-time alerts (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://techguylabs.com/blog/disable-app-notifications-your-mobile-device'>instructions</a>)",
                     "Do not use other social media accounts for Instagram login",
-                    "Make your profile private",
+                    "Make your profile private (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.instagram.com/243810329323104?ref=dp'>instructions</a>)",
                     "Delete the contacts that you may have uploaded to Instagram from your phone"
                 ]
             },
@@ -92,8 +93,9 @@
                     "There has been a vulnerability of Instagram, which would let an attacker access account details and phone numbers (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.forbes.com/sites/zakdoffman/2019/09/12/new-instagram-hack-exclusive-facebook-confirms-user-accounts-and-phone-numbers-at-risk/?sh=7118a8d02200'>source</a>)"
                 ],
                 "recs": [
-                    "Turn off location services and real time alert",
-                    "Make your profile private"
+                  "Turn off location services (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.lifewire.com/turn-off-mobile-location-services-4156238'>instructions</a>)",
+                  "Turn off real-time alerts (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://techguylabs.com/blog/disable-app-notifications-your-mobile-device'>instructions</a>)",
+                  "Make your profile private (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.instagram.com/243810329323104?ref=dp'>instructions</a>)",
                 ]
             }
         ]
@@ -112,7 +114,7 @@
                     "Instagram collects behavioural data through cookies, and analytics from third-parties for advertising through analytics services (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://hellogiggles.com/news/instagram-compromising-privacy-dm-feature/'>source</a>)"
                 ],
                 "recs": [
-                    "To control ads on Instagram, you need to go to Facebook. There it’s possible to change preference settings, which will apply to Instagram as well as Facebook"
+                    "To control ads on Instagram, you need to go to Facebook. There it’s possible to change preference settings, which will apply to Instagram as well as Facebook (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.wired.com/story/how-to-stop-instagram-from-tracking-everything-you-do/'>instructions</a>)"
                 ]
             },
             {
@@ -122,7 +124,7 @@
                     "Even if you are not an active user, Instagram still collects behavioural data through cookies, analytics from third-parties for advertising, analytics services. For example, what type of stories you are not interested in, how much time you spend on a story before wiping it away (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.wired.com/story/how-to-stop-instagram-from-tracking-everything-you-do/#:~:text=Tap%20your%20way%20to%20the,the%20app%2C%20or%20off%20completely'>source</a>)"
                 ],
                 "recs": [
-                    "To control ads on Instagram, you need to go to Facebook. There it’s possible to change preference settings, which will apply to Instagram as well as Facebook"
+                    "To control ads on Instagram, you need to go to Facebook. There it’s possible to change preference settings, which will apply to Instagram as well as Facebook (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.wired.com/story/how-to-stop-instagram-from-tracking-everything-you-do/'>instructions</a>)"
                 ]
             }
         ]
@@ -142,7 +144,7 @@
                     "The new DM feature alerts real-timeily others to exactly what you’re doing on the app and when you’re doing it (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://hellogiggles.com/news/instagram-compromising-privacy-dm-feature/'>source</a>)"
                 ],
                 "recs": [
-                    "Make your post private",
+                    "Make your post private (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://smallbusiness.chron.com/make-pictures-private-instagram-77742.html'>instructions</a>)",
                     "Don’t post sensitive or copyrighted photos on Instagram. If you need to post copyrighted photos for advertisement, remember to leverage watermark and other legal preventions"
                 ]
             },
@@ -170,18 +172,18 @@
                 "risks": [
                     "Kindle collects your geolocation data (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://foundation.mozilla.org/en/privacynotincluded/amazon-kindle/'>source</a>)",
                     "Kindle can access other social media accounts and if you use it for Kindle login (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://the-digital-reader.com/2020/02/12/six-default-amazon-security-settings-you-can-change-for-more-privacy/'>source</a>)",
-                    "Kindle collects behavioural data through cookies, analytics from third-parties for advertising, analytics services (e.g. page flip using tap or wipe) (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://privacy.commonsense.org/privacy-report/Amazon-Kindle'>source</a>)"
+                    "Kindle collects behavioural data through cookies, analytics from third-parties for advertising, analytics services (e.g., page flip using tap or wipe) (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://privacy.commonsense.org/privacy-report/Amazon-Kindle'>source</a>)"
                 ],
                 "recs": [
-                    "Clear Amazon tracking cookies",
-                    "Disable personal data collected by the OS of the device for marketing and product improvement purpose",
-                    "Request Amazon to delete existing data it has recorded"
+                    "Clear Amazon tracking cookies (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.techwalla.com/articles/how-to-get-rid-of-amazon-tracking-cookies'>instructions</a>)",
+                    "Disable personal data collected by the OS of the device for marketing and product improvement purpose (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://privacysavvy.com/security/safe-browsing/disable-ad-tracking/'>instructions</a>)",
+                    "Request Amazon to delete existing data it has recorded (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.amazon.com/gp/help/customer/display.html?nodeId=GDK92DNLSGWTV6MP'>instructions</a>)"
                 ]
             },
             {
                 "optionText": "Local Bookstore",
                 "risks": [
-                    "The bookstore may require you to sign up for its email marketing program. This often means that your personal information may be collected (e.g. name, phone number, email, age, etc.), and thus increases the risk for your data to be compromised"
+                    "The bookstore may require you to sign up for its email marketing program. This often means that your personal information may be collected (e.g., name, phone number, email, age, etc.), and thus increases the risk for your data to be compromised"
                 ],
                 "recs": [
                     "Do not sign up for the email marketing program if you feel like there is a potential for your personal information to be compromised"
@@ -205,9 +207,9 @@
                 ],
                 "recs": [
                     "Keep your cards in a safe place, don't lend them to anyone, and cover up when you enter your password in a local setting",
-                    "For online payment, make sure that the transaction is secure and do not to save your credit card information",
+                    "For online payment, make sure that the transaction is secure and do not to save your credit card information (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.safewise.com/online-security-faq/online-transaction-secure/'>instructions</a>)",
                     "Turn of tracking cookies, as some cookies track where you spend, how much you spend, and what you buy",
-                    "Contact your credit card company immediately when you find fraudulent charges (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.nerdwallet.com/article/credit-cards/dispute-fraudulent-credit-card-charges'>instructions</a>)"
+                    "Contact your credit card company immediately when you find fraudulent charges (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://us.norton.com/internetsecurity-privacy-how-to-clear-cookies.html'>instructions</a>)"
                 ]
             },
             {

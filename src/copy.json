@@ -21,7 +21,7 @@
                 "risks": [
                     "Alexa remembers all of the interactions you’ve had with her and has even accidentally sent over 1700 voice files to a stranger who didn’t even have an Alexa-enabled device (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.npr.org/2018/12/20/678631013/amazon-customer-receives-1-700-audio-files-of-a-stranger-who-used-alexa?t=1570014709519&t=1570530199090'>source</a>)",
                     "Alexa creates transcripts and voice recordings of your conversations, and these are manually reviewed by Amazon employees to improve Alexa’s listening capabilities (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cnet.com/home/smart-home/8-ways-to-protect-your-amazon-echo-privacy-while-working-from-home/'>source</a>)",
-                    "Alexa skills are vulnerable to hackers listening in on your conversations without you knowing (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cnet.com/home/smart-home/8-ways-to-protect-your-amazon-echo-privacy-while-working-from-home/'>source</a>)"
+                    "Alexa skills are vulnerable to hackers listening in on your conversations without you knowing (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.bbc.com/news/technology-53770778'>source</a>)"
                 ],
                 "recs": [
                     "Regularly review and delete your recordings (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cnet.com/home/smart-home/8-ways-to-protect-your-amazon-echo-privacy-while-working-from-home/'>instructions</a>)",
@@ -78,7 +78,7 @@
                 ],
                 "recs": [
                     "Turn off location services (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.lifewire.com/turn-off-mobile-location-services-4156238'>instructions</a>)",
-                    "Turn off real-time alerts (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://techguylabs.com/blog/disable-app-notifications-your-mobile-device'>instructions</a>)",
+                    "Turn off activity status on Instagram (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.instagram.com/1164377657035425'>instructions</a>)",
                     "Do not use other social media accounts for Instagram login",
                     "Make your profile private (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.instagram.com/243810329323104?ref=dp'>instructions</a>)",
                     "Delete the contacts that you may have uploaded to Instagram from your phone"
@@ -94,7 +94,7 @@
                 ],
                 "recs": [
                   "Turn off location services (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.lifewire.com/turn-off-mobile-location-services-4156238'>instructions</a>)",
-                  "Turn off real-time alerts (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://techguylabs.com/blog/disable-app-notifications-your-mobile-device'>instructions</a>)",
+                  "Turn off activity status on Instagram (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.instagram.com/1164377657035425'>instructions</a>)",
                   "Make your profile private (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://help.instagram.com/243810329323104?ref=dp'>instructions</a>)"
                 ]
             }
@@ -183,7 +183,7 @@
             {
                 "optionText": "Local Bookstore",
                 "risks": [
-                    "The bookstore may require you to sign up for its email marketing program. This often means that your personal information may be collected (e.g., name, phone number, email, age, etc.), and thus increases the risk for your data to be compromised"
+                    "The bookstore may require you to sign up for its email marketing program. This often means that your personal information may be collected (e.g., name, phone number, email, age, etc.), and thus increases the risk for your data to be compromised (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.cpomagazine.com/cyber-security/barnes-noble-alerted-customers-of-data-breach-that-leaked-personal-and-transaction-information/'>source</a>)"
                 ],
                 "recs": [
                     "Do not sign up for the email marketing program if you feel like there is a potential for your personal information to be compromised"
@@ -248,7 +248,7 @@
               "optionText": "Call the pizza place and pick up in person",
               "risks": [
                   "Your phone number will be shared with the pizza place employees and may be leaked to spammers due to lack of protection (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.today.com/food/scammers-are-targeting-pizza-restaurants-customers-t170264'>source</a>)",
-                  "Some cities (e.g., New Orleans) have installed surveillance cameras with AI technology, which can log people’s locations in real-time (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.govtech.com/news/new-orleans-invests-70m-in-police-surveillance-cameras'>source</a>)"
+                  "Some cities (e.g., New Orleans) have installed surveillance cameras with AI technology, which can log people’s locations in real time (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.govtech.com/news/new-orleans-invests-70m-in-police-surveillance-cameras'>source</a>)"
               ],
               "recs": [
                   "You can use Skype or other Internet Phone Calls apps to make orders such that your phone number will not be leaked (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://support.skype.com/en/skype/windows-desktop/calling/skype-to-phone/'>instructions</a>)",
